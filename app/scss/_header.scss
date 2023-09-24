@@ -1,0 +1,99 @@
+.header{
+    &__inner{
+        @extend %flex;
+        justify-content: space-between;
+        padding: 45px 0;
+        flex-wrap: wrap;
+    }
+    &__btn{
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+    }
+}
+
+.logo{
+    margin: 0 auto;
+}
+
+.menu{
+    padding-right: 15px;
+    &__list{
+        display: flex;
+    }
+    &__list-item{
+        padding-right: 45px;
+        padding-left: 35px;
+    }
+    &__list-link{
+        @extend %text-title;
+        color: $title;
+        line-height: 22px;
+        transition: all 0.5s;
+    }
+}
+
+.rightside-menu{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    max-width: 20vw;
+    width:100%;
+    background-color: #fff;
+    padding-top: 40px;
+    box-shadow: 1px 1px 3px 1px $title;
+    transition: all .5s;
+    z-index: 100;
+    &.rightside-menu--close{
+        transform: translateX(100%);
+    }
+    &__close{
+        background-color: transparent;
+        bottom: 0;
+        padding: 0;
+        cursor: pointer;
+        margin-left: 50px;
+        margin-bottom: 60px;
+    }
+    &__content{
+        text-align: center;
+        max-width: 25vw;
+        margin: 0 auto;
+    }
+    &__logo{
+        margin-bottom: 40px;
+        display: inline-block;
+    }
+    &__title{
+        color: $title;
+        @extend %text-title;
+        line-height: 3rem;
+        font-size: 110px;
+        position: relative;
+        margin-bottom: 17px;
+        padding-bottom: 17px;
+        &::after{
+            content: '';
+            position: absolute;
+            bottom: 0;
+            max-width: 13vw;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            height: 1px;
+            background: #6D7278;
+        }
+    }
+    &__link{
+        text-transform: uppercase;
+        color: $green;
+        font-weight: 600;
+        margin: 30px 0;
+        display: block;
+    }
+    &__images{
+        max-width: 25vw;
+    }
+}

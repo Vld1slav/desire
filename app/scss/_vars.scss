@@ -1,0 +1,28 @@
+$text: #5a5a5a;
+$title: #363838;
+$gray: #979797;
+$btn-text: #454647;
+$btn-border: #8F8D8D;
+$light-gray: #707070;
+$block-bg: #DFDFDF;
+$yellow: #FFEF35;
+$green: #54968E;
+
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%text-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+@function max($numbers...){
+    @return m#{a}x(#{$numbers});
+}
+
+@function min($numbers...){
+    @return m#{i}n(#{$numbers});
+}
