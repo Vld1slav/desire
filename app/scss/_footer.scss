@@ -1,28 +1,33 @@
-.footer{
-    &__content{
+.footer {
+    &__content {
         background-color: $block-bg;
         padding: 3.75em 0 5rem;
     }
-    &__inner{
+
+    &__inner {
         display: flex;
         justify-content: space-between;
         align-items: start;
         flex-wrap: wrap;
         grid-row: 5rem;
     }
-    &__info{
+
+    &__info {
         width: 28vw;
         margin-bottom: 2rem;
     }
-    &__info-title{
+
+    &__info-title {
         color: $title;
         @extend %text-title;
     }
-    &__info-text{
+
+    &__info-text {
         padding: 14px 0 16px;
         max-width: 25vw;
     }
-    &__info-email{
+
+    &__info-email {
         color: $title;
         font-weight: 600;
         font-size: 16px;
@@ -30,28 +35,33 @@
         padding-left: 15px;
         display: inline-block;
     }
-    &__form{
+
+    &__form {
         display: flex;
     }
-    &__form-input{
+
+    &__form-input {
         padding: 6px 10px 6px 18px;
         border-radius: 21px;
-        background-color:transparent ;
+        background-color: transparent;
         border: 1px solid rgba($title, 0.7);
         width: 50%;
-        &::placeholder{
+
+        &::placeholder {
             font-size: 16px;
             line-height: 27;
             font-weight: 400;
-            font-family:'Open Sans', sans-serif;
+            font-family: 'Open Sans', sans-serif;
             color: #A1A1A1;
         }
-        &:focus{
+
+        &:focus {
             outline: none;
             border: 1px solid $green;
         }
     }
-    &__form-btn{
+
+    &__form-btn {
         background-color: $title;
         padding: 6px 12px;
         min-width: 160px;
@@ -62,28 +72,35 @@
         margin-left: 9px;
         cursor: pointer;
     }
-    &__social-item, &__menu-item{
+
+    &__social-item,
+    &__menu-item {
         margin-bottom: 15px;
     }
+
     &__social-link,
-    &__menu-link{
+    &__menu-link {
         font-size: 14px;
         color: $light-gray;
         transition: all 0.3s;
-        &:hover{
+
+        &:hover {
             color: $green;
         }
     }
-    &__social-link{
-        i{
+
+    &__social-link {
+        i {
             margin-right: 15px;
         }
     }
-    &__copyright{
+
+    &__copyright {
         background-color: $title;
         padding: 42px 15px;
     }
-    &__copyright-text{
+
+    &__copyright-text {
         text-align: center;
         color: #A1A1A1;
     }
