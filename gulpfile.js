@@ -31,10 +31,11 @@ function styles() {
 //создаем функцию с именем scripts
 function scripts() {
     return src([
+        'app/js/main.js',
         'node_modules/slick-carousel/slick/slick.js',
         'node_modules/mixitup/dist/mixitup.js',
-        'app/js/main.js',
-])//указываем откуда нужно брать исходный файл
+
+    ])//указываем откуда нужно брать исходный файл
         .pipe(concat('main.min.js'))//делаем конкатенацию (объединение) и переименовываем файл в main.min.js
         .pipe(uglify()) //делаем минификацию/сжатие файла
         .pipe(dest('app/js'))// выгружаем результат в папку css

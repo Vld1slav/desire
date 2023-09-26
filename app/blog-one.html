@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.min.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/f2cc8d7f38.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+       <header class="header">
+           <div class="container">
+               <div class="header__inner">
+                   <nav class="menu">
+                       <ul class="menu__list">
+                           <li class="menu__list-item"><a href="about.html" class="menu__list-link">About</a></li>
+                           <li class="menu__list-item"><a href="gallery.html" class="menu__list-link">Gallery</a></li>
+                       </ul>
+                   </nav>
+                   <a href="index.html" class="logo">
+                      <img src="images/logo.png" alt="logo" />
+                  </a>
+                   <nav class="menu">
+                       <ul class="menu__list">
+                           <li class="menu__list-item"><a href="blog.html" class="menu__list-link">Blog</a></li>
+                           <li class="menu__list-item"><a href="contact.html" class="menu__list-link">Contact</a></li>
+                       </ul>
+                   </nav>
+                   <button class="header__btn">
+                       <img src="images/burger.svg" alt="button">
+                   </button>
+                   <!-- Выпадающее меню -->
+                   <div class="rightside-menu rightside-menu--close">
+                       <button class="rightside-menu__close">
+                           <img src="images/close.svg" alt="button">
+                       </button>
+                       <div class="rightside-menu__content">
+                           <img class="rightside-menu__logo" src="images/logo-big.png" alt="logo">
+                           <h2 class="rightside-menu__title">Furniture for life</h2>
+                           <p class="rightside-menu__text">Sustainable hot chicken skateboard, dreamcatcher meggings actually squid. Slow-carb everyday carry +1 art party microdosing, put a bird on it brooklyn</p>
+                           <a href="Catalog2023.pdf" class="rightside-menu__link" target="_blank">Download catalog</a>
+                           <img class="rightside-menu__images" src="images/ppmenu-img.jpg" alt="images">
+                       </div>
+                       
+                   </div>
+               </div>
+           </div>
+       </header>
+       
+      <main class="main">
+         <div class="breadcrumbs">
+             <div class="container">
+               <ul class="breadcrumbs__list">
+                 <li class="breadcrumbs__item">
+                   <a class="breadcrumbs__link" href="index.html">Home</a>
+                 </li>
+                 <li class="breadcrumbs__item">
+                   <a class="breadcrumbs__link" href="about.html">About</a>
+                 </li>
+               </ul>
+             </div>
+           </div>
+        <section class="blog blog-one">
+          <div class="container">
+            <div class="blog__inner">
+              <div class="blog_items">
+                <div class="blog__item blog-one__item">
+                  <img class="blog__item-img" src="images/blog/3.jpg" alt="images">
+                  <div class="blog__item-info">
+                    <span class="blog__item-date">August 15, 2023</span> |
+                    <a class="blog__item-author" href="#">by Ann Summers</a> |
+                    <a class="blog__item-theme" href="#">Bedroom Furniture</a>
+                  </div>
+                  <h3 class="blog__item-title">Red selfies edison bulb four dollar toast humblebrag for the
+                    furniture </h3>
+                  <div class="blog__one-text">
+                    <p> Тут вставьте текст </p>
+                    <blockquote> “Simplicity is not the goal. It is the by-product of a good idea and modest expectations”
+                      <div class="blog__blockquote-author">Paul Rand</div>
+                    </blockquote>
+                    <p>Тут вставьте текст </p>
+                  </div>
+                  <div class="blog-one__tags">
+                    <h4 class="blog-one__tags-title">Tags</h4>
+                    <a class="blog-one__tags-link" href="#">Bedroom furniture</a>
+                    <a class="blog-one__tags-link" href="#">Office furniture</a>
+                    <a class="blog-one__tags-link" href="#">Dining room futniture</a>
+                    <a class="blog-one__tags-link" href="#">Chair</a>
+                  </div>
+                  <div class="blog-one__links">
+                    <a class="blog-one__link blog-one__link-prev" href="#">Cred selfies edison bulb four dollar toast humblebrag
+                    </a>
+                    <a class="blog-one__link blog-one__link-next" href="#">Semiotics fixie four dollar toast, next level
+                    </a>
+                  </div>
+         </div>
+                <div class="blog-one__comments">
+                  <h4 class="blog-one__comments-title">Comments:</h4>
+                  <div class="blog-one__comments-item">
+                    <img class="blog-one__comments-avatar" src="images/content/avatar.jpg" alt="avatar">
+                    <div class="blog-one__comments-info">
+                      <p class="blog-one__comments-name">Lea Brown</p>
+                      <p class="blog-one__comments-date">August 12, 2023</p>
+                      <p class="blog-one__comments-text">Tumeric tousled austin, kinfolk scenester authentic craft beer truffaut irony intelligentsia YOLO lomo bushwick coloring book. Semiotics man bun venmo viral cliche</p>
+                    </div>
+                    <button class="blog-one__reply">Reply</button>
+                  </div>
+                </div>
+                <form class="blog-one__form">
+                  <h4 class="blog-one__form-title">Post a Comment </h4>
+                  <textarea class="blog-one__form-textarea" placeholder="Your comment"></textarea>
+                  <input class="blog-one__form-input" type="text" placeholder="Your name">
+                  <input class="blog-one__form-input" type="email" placeholder="Your e-mail">
+                  <label class="blog-one__form-label">
+                    <input class="blog-one__form-labelinput" type="checkbox">Remember me
+                  </label>
+                  <button class="blog-one__form-btn" type="submit">Submit</button>
+                </form>
+            </div>
+             <aside class="aside">
+                 <form class="aside__form">
+                   <input class="aside__search-input"  type="text" placeholder="Search">
+                   <button class="aside__search-btn" type="submit">
+                     <img src="images/search-icon.svg" alt="icon" />
+                   </button>
+                 </form>
+                 <div class="blog__category">
+                   <h6 class="blog__category-title">Categories</h6>
+                   <ul class="blog__category-list">
+                     <li class="blog__category-item"> <a class="blog__category-link" href="#">Dining room (1)</a> </li>
+                     <li class="blog__category-item"> <a class="blog__category-link" href="#">Office furniture (12)</a >  </li>
+                     <li class="blog__category-item"> <a class="blog__category-link" href="#">Simple interiror design (2)</a>  </li>
+                     <li class="blog__category-item"> <a class="blog__category-link" href="#">Design (4)</a> </li>
+                     <li class="blog__category-item"> <a class="blog__category-link" href="#">Bedroom Furniture (1)</a> </li>
+                   </ul>
+                 </div>
+                 <div class="recent-posts">
+                   <h6 class="recent-posts__title">Recent Posts</h6>
+                   <ul class="recent-posts__list">
+                     <li class="recent-posts__item">
+                       <a class="recent-posts__item-title" href="#"> selfies edison bulb four dollar toast humblebrag</a>
+                       <span class="recent-posts__date"> August 10, 2023 </span>|
+                       <a class="recent-posts__author" href="#">by Ann Summers</a>
+                     </li>
+                     <li class="recent-posts__item">
+                       <a class="recent-posts__item-title" href="#">Semiotics fixie four dollar toast, next level woke scenester direct trade photo booth  </a>
+                       <span class="recent-posts__date">September 30 ,2023 </span >|
+                       <a class="recent-posts__author" href="#">by Ann Summers </a>
+                     </li>
+                     <li class="recent-posts__item">
+                       <a class="recent-posts__item-title" href="#"> selfies edison bulb four dollar toast humblebrag</a>
+                       <span class="recent-posts__date"> May 2, 2023 </span>|
+                       <a class="recent-posts__author" href="#"> by Ann Summers </a>
+                     </li>
+                   </ul>
+                 </div>
+                 <div class="blog__tags">
+                   <h6 class="blog__tags-title">Tags</h6>
+                   <a class="blog__tags-link" href="#">Dining room futniture</a>
+                   <a class="blog__tags-link" href="#">Chair</a>
+                   <a class="blog__tags-link" href="#">Table</a>
+                   <a class="blog__tags-link" href="#">Bedroom</a>
+                   <a class="blog__tags-link" href="#">Office Furniture</a>
+                 </div>
+                 <ul class="blog__social">
+                   <li class="blog__social-item"><a href="#" class="footer__social-link"><i class="fa-brands fa-facebook"></i></a></li>
+                   <li class="blog__social-item"><a href="#" class="footer__social-link"><i class="fa-brands fa-instagram"></i></a></li>
+                   <li class="blog__social-item"><a href="#" class="footer__social-link"><i class="fa-brands fa-pinterest"></i></a></li>
+                   <li class="blog__social-item"><a href="#" class="footer__social-link"><i class="fa-brands fa-whatsapp"></i></a></li>
+                   <li class="blog__social-item"><a href="#" class="footer__social-link"><i class="fa-brands fa-youtube"></i></a></li>
+                 </ul>
+               </aside>
+             
+            </div>
+
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+          <div class="footer__content">
+              <div class="container">
+                  <div class="footer__inner">
+                      <div class="footer__info">
+                          <h4 class="footer__info-title">Contact Us</h4>
+                          <p class="footer__info-text">Keffiyeh poutine etsy, paleo cray put a bird on it microdosing schlitz you probably occupy
+                          </p>
+                          <i class="fa-regular fa-envelope"></i><a class="footer__info-email" href="mailto:ouremailaddress@email.com">ouremailaddress@email.com </a>
+                          <form class="footer__form">
+                              <input type="email" class="footer__form-input" placeholder="Subscribe by email">
+                              <button class="footer__form-btn" type="submit">Send</button>
+                          </form>
+                      </div>
+                      <ul class="footer__social">
+                          <li class="footer__social-item"><a href="#" class="footer__social-link"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+                          <li class="footer__social-item"><a href="#" class="footer__social-link"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                          <li class="footer__social-item"><a href="#" class="footer__social-link"><i class="fa-brands fa-pinterest"></i>Pinterest</a></li>
+                          <li class="footer__social-item"><a href="#" class="footer__social-link"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a></li>
+                          <li class="footer__social-item"><a href="#" class="footer__social-link"><i class="fa-brands fa-youtube"></i>Youtube</a></li>
+                      </ul>
+                      <ul class="footer__menu">
+                          <li class="footer__menu-item"><a href="#" class="footer__menu-link">Delivery</a></li>
+                          <li class="footer__menu-item"><a href="#" class="footer__menu-link">FAQ</a></li>
+                          <li class="footer__menu-item"><a href="#" class="footer__menu-link">Help</a></li>
+                          <li class="footer__menu-item"><a href="#" class="footer__menu-link">More About Us</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="footer__copyright">
+              <p class="footer__copyright-text">674 Gonzales Drive. Washington, PA 15301</p>
+          </div>
+      </footer>
+      
+</div>
+<script src="js/main.min.js"></script>  
+</body>
+</html>
